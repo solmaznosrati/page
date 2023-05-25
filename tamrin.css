@@ -1,0 +1,107 @@
+body{
+    color: rgb(0, 255, 34);
+    background-image: url(/winter-night.jpg);
+    background-attachment: fixed;
+    
+    background-repeat: repeat;
+   
+   
+    
+}
+
+h1{
+    font-size: large;
+    text-shadow: #a5a2a2 3px 3px ;
+    font-family: 'Dima Shekasteh';
+  
+}
+p{
+    font-size: 50px;
+    color: rgb(23, 24, 23);
+    background-color: rgba(172, 216, 146, 0.925);
+  padding: 5px;
+  margin-bottom:350px ;
+  border-radius: 50px;
+  display: inline-block;
+  
+  
+    
+
+}
+
+
+@font-face {
+    font-family: 'Dima Shekasteh'; 
+    src: url(/فونت/Dima\ Shekasteh.ttf);
+}
+nav{
+    background-color: rgb(6, 156, 226);
+    
+    position: sticky;
+    top: 0%;
+    right:0% ;
+    left:0% ;
+    border-radius: 50px;
+    font-size: 10px;
+    text-align: right;
+    direction: rtl;
+}
+a{
+    font-size:30px;
+    display: inline-block;
+    padding: 1em;
+    text-shadow: #a8a4a4 3px 3px ;
+    font-family: 'Dima Shekasteh'; 
+    text-decoration: none; 
+   
+   
+}
+a:hover{
+color: rgb(32, 31, 31);
+background-color: rgba(250, 137, 175, 0.945);
+
+}
+.pic1{
+    width: 450px;
+    height: 350px;
+   display: inline-block;
+    border-radius: 20px ;
+    box-shadow: 0px 3px 5px 5px;
+    float: left;
+    position:static;
+    padding: 5px;
+    margin:35px ;
+}  
+
+.pic2{
+    width: 100%;
+    height:100%;
+   display: inline-block;
+    border-radius: 20px ;
+    box-shadow: 0px 3px 5px 5px;
+    margin-top: 350px;
+    position:static;
+    padding: 5px 5px;
+    
+    margin-top:35px ;
+  
+}
+.asdfg{
+ width: 70px;
+ height: 60px;
+ position:absolute;
+ top: 17%;
+ right: 93%;
+ 
+}
+.pic3{
+    width: 450px;
+    height: 350px;
+   display: inline-block;
+    border-radius: 20px ;
+    box-shadow: 0px 3px 5px 5px;
+    float: right;
+    position:static;
+    padding: 5px;
+    margin:35px ;
+}  
