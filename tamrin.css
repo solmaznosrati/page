@@ -1,16 +1,17 @@
 body{
-    color: rgb(0, 255, 34);
+    color: rgb(52, 54, 53);
     background-image: url(/winter-night.jpg);
     background-attachment: fixed;
     
     background-repeat: repeat;
+    
    
    
     
 }
 
 h1{
-    font-size: large;
+    font-size: x-large;
     text-shadow: #a5a2a2 3px 3px ;
     font-family: 'Dima Shekasteh';
   
@@ -19,10 +20,11 @@ p{
     font-size: 50px;
     color: rgb(23, 24, 23);
     background-color: rgba(172, 216, 146, 0.925);
-  padding: 5px;
+    margin-top:150px ;
   margin-bottom:350px ;
   border-radius: 50px;
   display: inline-block;
+  padding: 35px 35px;
   
   
     
@@ -35,30 +37,37 @@ p{
     src: url(/فونت/Dima\ Shekasteh.ttf);
 }
 nav{
-    background-color: rgb(6, 156, 226);
-    
-    position: sticky;
+    background-color: rgb(86, 134, 158);
+    padding: 5px;
+    position: fixed;
     top: 0%;
     right:0% ;
     left:0% ;
-    border-radius: 50px;
+    box-shadow: 0px 3px 5px 5px;
+    border-radius: 0px  0px 100px 100px ;
     font-size: 10px;
     text-align: right;
     direction: rtl;
+    
 }
 a{
-    font-size:30px;
+    color: crimson;
+    font-size:25px;
     display: inline-block;
-    padding: 1em;
-    text-shadow: #a8a4a4 3px 3px ;
+    padding: 30px;
+    text-shadow: #ad7272 3px 3px ;
     font-family: 'Dima Shekasteh'; 
     text-decoration: none; 
+    position: relative;
+    right: 5%;
+
    
    
 }
 a:hover{
 color: rgb(32, 31, 31);
 background-color: rgba(250, 137, 175, 0.945);
+border-radius: 100%;
 
 }
 .pic1{
@@ -67,7 +76,7 @@ background-color: rgba(250, 137, 175, 0.945);
    display: inline-block;
     border-radius: 20px ;
     box-shadow: 0px 3px 5px 5px;
-    float: left;
+    float: left ;
     position:static;
     padding: 5px;
     margin:35px ;
@@ -87,11 +96,12 @@ background-color: rgba(250, 137, 175, 0.945);
   
 }
 .asdfg{
- width: 70px;
+ width: 60px;
  height: 60px;
  position:absolute;
- top: 17%;
- right: 93%;
+ top:20.5%;
+ right: 90%;
+ border-radius: 50%;
  
 }
 .pic3{
